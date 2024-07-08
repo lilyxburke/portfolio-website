@@ -1,0 +1,33 @@
+#wrapper {
+    margin: 0 auto;
+    font-family: "Tahoma", serif;
+    max-width: 1300px;
+}
+
+:root{
+    --bkgrd_darkPurple: #592b7d;
+    --bkgrd_middlePurple: #8f58b3;
+    --bkgrd_lightPurple:#B99DD0;
+    --bkgrd_lavender: #e6e6fa;
+    --bkgrd_darkGreen:#28712e;
+    --bkgrd_lightGreen: #4a9a53;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    background-color: var(--bkgrd_lightPurple);
+    margin: 20px;
+}
+
+.project li{
+    list-style: none;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
