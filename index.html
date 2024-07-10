@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <title>Lily's portfolio</title>
     <meta name="author" content="Lily Burke">
-    <link rel="stylesheet" href="./css-files/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="./css-files/style.css">
     <link rel="stylesheet" href="./css-files/largeScreen.css"
             media="screen and (min-width: 769px)">
     <link rel="stylesheet" href="./css-files/smallScreen.css"
@@ -16,7 +18,7 @@
 <body>
     <div id="wrapper">
         <header>
-            <h1>Portfolio</h1>
+            <h1>Lily Burke | Aspiring game developer</h1>
         </header>
 
         <main>
@@ -28,27 +30,33 @@
                 </p>
             </section>
             <section class="projects">
-                <h1>PROJECTS</h1>
+                <h1 id="title_1">PROJECTS</h1>
                 <div id="flex-container">
                     <div class="project">
-                        <li><a href="scroll-game.html">SCROLL GAME</a></li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis varius lacus, at sodales quam sollicitudin et. 
-                            Ut quis justo a purus hendrerit dictum mollis a dui. Aliquam erat volutpat. 
-                            Donec fermentum pulvinar accumsan. Duis sit amet vulputate metus. Donec eu semper metus. 
-                            Duis condimentum nec dui vel luctus. Maecenas sit amet tempus massa. 
-                            Donec sodales vehicula odio, eu consectetur sem viverra at. 
-                            Suspendisse convallis turpis eros, nec maximus purus venenatis vel.
-                        </p>
-                    </div>
-                    <div class="project">
-                        <li><a href="OTHER-GAME.html">OTHER GAME</a></li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis varius lacus, at sodales quam sollicitudin et. 
-                            Ut quis justo a purus hendrerit dictum mollis a dui. Aliquam erat volutpat. 
-                            Donec fermentum pulvinar accumsan. Duis sit amet vulputate metus. Donec eu semper metus. 
-                            Duis condimentum nec dui vel luctus. Maecenas sit amet tempus massa. 
-                            Donec sodales vehicula odio, eu consectetur sem viverra at. 
-                            Suspendisse convallis turpis eros, nec maximus purus venenatis vel.
-                        </p>
+                        <div id="written_stuff">
+                            <div id="one">
+                                <img width="50" height="50" src="white.jpg" alt="Sheffield student union"> </a>
+                                <h1>Scroll game</h1>
+                            </div>
+                            <div id="two">
+                                <p><b>My first attempt at creating a game using Unity, a recreation of the Chrome Dino game with some tweaks.</b></p>
+                                <br>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis varius lacus, at sodales quam sollicitudin et. 
+                                    Ut quis justo a purus hendrerit dictum mollis a dui. Aliquam erat volutpat. </p>
+                                <br> <br>
+                                <b>Project length: </b> 2 weeks <br>
+                                <b>Engine: </b> Unity <br>
+                                </p>
+                            </div>
+                            <div id="three">
+                                <img src="white.jpg" alt="Sheffield student union">
+                            </div>
+                            <div id="four">
+                                <a href="SCROLL-GAME.html">
+                                    <button>Read more ></button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
