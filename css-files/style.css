@@ -29,7 +29,7 @@ body{
 }
 
 .project{
-    background-color: var(--bkgrd_secondBlue);
+    background-color: var(--bkgrd_firstBlue);
     margin: 20px;
     border-radius: 5px;
     border: 2px solid;
@@ -68,18 +68,38 @@ p{
 }
 
 header{
-    background-color: var(--bkgrd_firstBlue);
+    background-color: var(--bkgrd_secondBlue);
     padding: 10px;
     position: sticky; 
     top: 0;
     z-index: 99;
     box-shadow: 2px 5px 10px black;
+    display:flex;
+    justify-content: space-between;
 }
+
+header img{
+    width: 50px;
+    height: auto;
+    padding: 0 5px;
+}
+a {
+    text-decoration: none;
+}
+
+#tags{
+    padding: 0 30px;
+    float: right;
+    display: flex;
+    align-items: center;
+
+}
+
 
 button{
     padding: 20px;
     border-radius: 10px;
-
+    background-color: #fffceb;
 }
 
 #three img{
@@ -90,5 +110,6 @@ button{
 }
 
 #title_1{
-    background-color: var(--bkgrd_firstBlue);
+    background-color: var(--bkgrd_secondBlue);
+    text-align: center;
 }
