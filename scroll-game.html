@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Scroll game</title>
+    <title>Jump Jump</title>
     <meta name="author" content="Lily Burke">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css-files/style.css">
     <link rel="stylesheet" href="css-files/largeScreen.css" media="screen and (min-width: 769px)">
     <link rel="stylesheet" href="css-files/smallScreen.css" media="screen and (max-width: 768px)">
-    <link rel="stylesheet" href="test/TemplateData/styleNew.css">
+    <link rel="stylesheet" href="JumpWebGL/TemplateData/styleNew.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -27,15 +27,14 @@
     <div id="wrapper">
 
       <main>
-        <h1 class="project_name">Scroll game</h1>
+        <h1 class="project_name">Jump Jump!</h1>
         <section class="display_section">
-          <p>For my first project I decided I wanted to recreate a simple game and landed on the Chrome Dino game as it was both simple and a game I enjoy playing. 
-              Using tutorials on YouTube from <i>Game Maker's Toolkit</i> 
-              I learnt how to use prefabs, layers and the various components available in the inspector to my advantage.</p>
-          <p>All assets for the game can be found on <a href="https://kenney.nl/">Kenney</a> under the Creative Commons CC0 Licence.</p>
-        
+          <p>For my first project I decided I wanted to recreate a simple game and decided on the Chrome Dino game as it fit this criteria and was a game I enjoy playing. 
+              Using tutorials on YouTube from <i>Game Maker's Toolkit</i>,
+              I learnt how to use prefabs, layers, various game object components available to my advantage 
+              and also started to get an idea of how to use the built-in methods in C# to detect different events.</p>
           <br></br>
-          <p>The game can be played below: </p>
+          <p>All assets for the game can be found on <a href="https://kenney.nl/">Kenney</a> under the Creative Commons CC0 Licence. </p>
           </section>
           <div id="unity-container" class="unity-desktop">
             <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -43,7 +42,6 @@
             <div id="unity-footer">
               <div id="unity-webgl-logo"></div>
               <div id="unity-fullscreen-button"></div>
-              <div id="unity-build-title">Chrome-dino</div>
             </div>
           </div>
   
@@ -78,7 +76,7 @@
               updateBannerVisibility();
             }
       
-            var buildUrl = "test/Build";
+            var buildUrl = "JumpWebGL/Build";
             var loaderUrl = buildUrl + "/test.loader.js";
             var config = {
               dataUrl: buildUrl + "/test.data",
