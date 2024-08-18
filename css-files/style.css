@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 #wrapper {
@@ -35,6 +36,13 @@ body{
     border: 2px solid;
 }
 
+section{
+    margin: 0 3%;
+}
+
+main h1{
+    margin: 3%;
+}
 .project li{
     list-style: none;
     text-align: center;
@@ -136,5 +144,6 @@ button{
 .project_name{
     text-align: center;
     font-size: 30px;
+    margin-top: 5%;
 }
 
