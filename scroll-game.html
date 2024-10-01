@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Jump Jump</title>
+    <link rel="icon" type="image/x-icon" href="images/scroll-logo.png">
     <meta name="author" content="Lily Burke">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,10 +30,15 @@
       <main>
         <h1 class="project_name">Jump Jump!</h1>
         <section class="display_section">
-          <p>For my first project I decided I wanted to recreate a simple game and decided on the Chrome Dino game as it fit this criteria and was a game I enjoy playing. 
+          <p>For my first project I decided I wanted to recreate a simple game and decided on an endless runner as it was simple and didn't require that many components to create.
               Using tutorials on YouTube from <i>Game Maker's Toolkit</i>,
               I learnt how to use prefabs, layers, various game object components available to my advantage 
               and also started to get an idea of how to use the built-in methods in C# to detect different events.</p>
+          <br></br>
+          <p>After getting advice from industry professionals, I then refined the game based on their recommendations; I looked more into how Unity Physics
+            worked and decided to remodel the interaction of objects using raycasts and spheres instead of the provided physics callbacks. This allowed me to make the 
+            game more responsive and fixed issues I had with the scoring system previously. I also made use of object pooling for optimisation to reduce garbage collection of 
+            game objects and the new input system so I could map both touchscreen and keyboard controls at the same time using Input Actions.
           <br></br>
           <p>All assets for the game can be found on <a href="https://kenney.nl/">Kenney</a> under the Creative Commons CC0 Licence. </p>
           </section>
