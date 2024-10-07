@@ -14,3 +14,14 @@ video{
 p{
     font-size: 0.9em;
 }
+
+#project_container{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    gap: 2%;
+}
+
+.hidden{
+    visibility: visible;
+    width: 100%;
+}
