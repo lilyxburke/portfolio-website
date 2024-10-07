@@ -9,11 +9,14 @@ body{
     margin: 0;
 }
 
-#wrapper {
-    margin: 0 auto;
-    max-width: 1300px;
-    background-color:#FAF9F6;
+#game_container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(5%, auto);
+    margin: 20px;
+    display: grid;
+    gap: 12.5%;
 }
+
 
 :root{
     --bkgrd_firstBlue: #b4bff4;
@@ -44,8 +47,16 @@ section{
     margin: 0 3%;
 }
 
-main h1{
-    margin: 3%;
+div{
+    width: 100%;
+}
+h1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#project_1 h1, #project_2 h1{
+    text-align: center;
 }
 .project li{
     list-style: none;
@@ -60,31 +71,49 @@ main h1{
     gap: 10px;
 }
 
-p{
-    display: inline;
-}
-
-#one h1{
-    padding: 10px;
-}
-
-#one {
-    grid-column: 2 / 5;
-    grid-row: 1;
-    display: flex;
+#project_1{
+    display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    height: auto;
 }
 
-#two{
-    place-self:center;
+#project_1 div{
+    margin: 3% 0;
 }
+
+#project_2 div{
+    margin: 3% 0;
+}
+
+#project_2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+}
+p{
+    text-align: center;
+}
+
 
 #three {
     place-self: center;
 }
-#four {
-    place-self: center;
+#b2 button{
+    margin: 0 12.5%;
+    padding: 1.3em 2em;
+    width: 75%;
+}
+#b2{
+    width: 100%;
+}
+
+#info{
+    min-height: 10vh;
+    flex-grow: 1;
 }
 
 header{
@@ -108,10 +137,10 @@ a {
 }
 
 #tags{
-    padding: 0 30px;
-    float: right;
+    padding: 0 2%;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 
 }
 
@@ -128,13 +157,10 @@ button{
 #three img{
     max-width: 450px;
     height: auto;
-    border-radius: 5px;
-    border: 2px solid;
     margin: 0 auto;
 }
 
 #title_1{
-    background-color: var(--bkgrd_secondBlue);
     text-align: center;
     margin: 3% 0;
 }
@@ -172,3 +198,13 @@ footer{
     text-align: center;
     display:block;
 }
+
+hr{
+    margin: 2.5% 15%;
+}
+
+main{
+    margin: 5% 12.5%;
+}
+
+

@@ -27,3 +27,7 @@ video{
     width: 400px;
     height: 226px;
 }
+
+p{
+    font-size: 1.2em;
+}
