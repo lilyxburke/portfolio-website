@@ -158,16 +158,6 @@ figcaption{
     font-style: italic;
 }
 
-footer{
-    padding: 5%;
-}
-
-.copyright{
-    padding: 0;
-    text-align: center;
-    display:block;
-}
-
 video{
     width: 90%;
     margin: 0 auto;
